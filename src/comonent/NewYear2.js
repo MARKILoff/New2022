@@ -96,7 +96,7 @@ const NewYear2 = () => {
                     )}
                     <div>
                         <br />
-                        {change !== "Siroj" && change !== "Sabina" ? (
+                        {change !== "Siroj" && change !== "Sabina" && change !== "Asadbek" && change !== "Sardor" && change !== "Nasiba" && change !== "Marhamat" && change !== "Marxamat" && change !== "Muxiddin" && change !== "Komoliddin" && change !== "Nargiza" && change !== "Xakimjon" && change !== "Otabek" && change !== "Salohiddin" && change !== "Dilnoza" ? (
                             <button className="bg-gray-500 h-10 w-20 rounded-xl " disabled>
                                 Disabled
                             </button>

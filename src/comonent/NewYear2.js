@@ -124,7 +124,7 @@ const NewYear2 = () => {
             <br />
             <br />
             {hidden ? (
-                <div className='text-white'>99 790 64 22  Ismingizni Shu nomerga yozib yuboring</div>
+                <div className='text-red-500'>99 790 64 22   <span className='text-white'>Ismingizni Shu nomerga yozib yuboring</span></div>
             ) : null}
         </div>
     )

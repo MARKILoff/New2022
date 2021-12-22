@@ -24,8 +24,8 @@ const NewYear2 = () => {
                         ) : null
                     }
                     {hidden ?
-                        <div className="text-blue-500 text-3xl">
-                            <span className='text-red-500 my-10'>{change}</span>
+                        <div className="text-blue-500 text-4xl text-center">
+                            <span className='text-red-500 my-10'>{change}</span><br />
                             Yengi 2022 Yiling Muborak !
                         </div> :
                         <div className="text-blue-500 text-3xl ">
@@ -36,9 +36,8 @@ const NewYear2 = () => {
                 <br />
                 <div className='col-span-1 text-center'>
                     <br />
-                    <br />
                     {
-                        change === "Siroj" ? (
+                        hidden ? (
                             <div className="text-blue-300 text-5xl">
                                 <h1>😍2022🥳</h1>
                             </div>
@@ -50,7 +49,7 @@ const NewYear2 = () => {
                     }
                     <br />
                     {hidden ? (
-                        <span className="text-white text-lg">
+                        <span className="text-white text-2xl">
                             Allohim shu kunga yetkazganinga va ko`rsatganinga shukur o`zimmi baxtimga o`zim sog` boliii !!! 😜😜😜
                         </span>
 
@@ -63,7 +62,7 @@ const NewYear2 = () => {
                             <br />
                             <div className="input1">
                                 <input
-                                    className="h-10 rounded-2xl px-3 border border-green-500 outline-none bg-black text-white"
+                                    className="h-14 rounded-2xl px-5 border border-green-500 outline-none bg-black text-white"
                                     onChange={(e) => setChange(e.target.value)}
                                     type="text"
                                     placeholder="Iltimos ismingizni kiriting !!!"
@@ -76,7 +75,7 @@ const NewYear2 = () => {
                                 {change === "" ? (
                                     <>
                                         <Typical
-                                            className="text-red-500 d-flex"
+                                            className="text-red-500 d-flex text-xl"
                                             loop={Infinity}
                                             wrapper="p"
                                             steps={['To`ldirilishi shart !!!', 2000,
@@ -87,7 +86,7 @@ const NewYear2 = () => {
                                         />
                                     </>
                                 ) : (
-                                    <div className='text-green-500'>
+                                    <div className='text-green-500 text-2xl'>
                                         <h1>To`ldirilmoqda ...</h1>
                                     </div>
                                 )}
@@ -96,13 +95,13 @@ const NewYear2 = () => {
                     )}
                     <div>
                         <br />
-                        {change !== "Siroj" && change !== "Sabina" && change !== "Asadbek" && change !== "Sardor" && change !== "Nasiba" && change !== "Marhamat" && change !== "Marxamat" && change !== "Muxiddin" && change !== "Komoliddin" && change !== "Nargiza" && change !== "Xakimjon" && change !== "Otabek" && change !== "Salohiddin" && change !== "Dilnoza" ? (
-                            <button className="bg-gray-500 h-10 w-20 rounded-xl " disabled>
+                        {change !== "Sirojiddin" && change !== "Sabina" && change !== "Azamat" && change !== "Asadbek" && change !== "Sardor" && change !== "Nasiba" && change !== "Marhamat" && change !== "Marxamat" && change !== "Muxiddin" && change !== "Komoliddin" && change !== "Nargiza" && change !== "Xakimjon" && change !== "Otabek" && change !== "Salohiddin" && change !== "Dilnoza" && change !== "Afruza" && change !== "Axmaral" && change !== "Ahmaral" ? (
+                            <button className="bg-gray-500 h-14 w-32 rounded-xl text-xl " disabled>
                                 Disabled
                             </button>
                         ) : (
                             <button
-                                className='bg-gray-500 h-10 w-20 rounded-xl'
+                                className='bg-gray-500 h-14 w-32 rounded-xl text-xl'
                                 onClick={() => change && hidden === true ? setHidden(false) : setHidden(true)}
                             >
                                 {hidden ? (
@@ -124,7 +123,7 @@ const NewYear2 = () => {
             <br />
             <br />
             {hidden ? (
-                <div className='text-red-500'>99 790 64 22   <span className='text-white'>Ismingizni Shu nomerga yozib yuboring</span></div>
+                <div className='text-red-500'>99 790 64 22<span className='text-white'>Ismingizni Shu nomerga yozib yuboring</span></div>
             ) : null}
         </div>
     )

@@ -31,7 +31,7 @@ const NewYear = () => {
                 <div className="div">
                     {hidden ? (
                         <div className="left2">
-                            😍
+                            😍Sirojiddin
                         </div>
                     ) : null}
                     {

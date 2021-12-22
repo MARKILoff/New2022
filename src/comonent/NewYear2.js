@@ -28,7 +28,7 @@ const NewYear2 = () => {
                             <span className='text-red-500 my-10'>{change}</span><br />
                             Yengi 2022 Yiling Muborak !
                         </div> :
-                        <div className="text-blue-500 text-3xl ">
+                        <div className="text-blue-500 text-5xl ">
                             New Year 😁
                         </div>
                     }
@@ -62,7 +62,7 @@ const NewYear2 = () => {
                             <br />
                             <div className="input1">
                                 <input
-                                    className="h-14 rounded-2xl px-5 border border-green-500 outline-none bg-black text-white"
+                                    className="h-14 rounded-2xl w-60 border border-green-500 outline-none bg-black text-white p-2"
                                     onChange={(e) => setChange(e.target.value)}
                                     type="text"
                                     placeholder="Iltimos ismingizni kiriting !!!"

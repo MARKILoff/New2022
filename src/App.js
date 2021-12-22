@@ -1,10 +1,10 @@
 import React from 'react'
-import NewYear from './comonent/NewYear'
+import NewYear2 from './comonent/NewYear2'
 
 const App = () => {
   return (
     <div>
-      <NewYear/>
+      <NewYear2/>
     </div>
   )
 }

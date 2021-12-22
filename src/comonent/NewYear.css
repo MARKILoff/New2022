@@ -1,4 +1,4 @@
-.app {
+/* .app {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,12 +140,12 @@
     box-shadow: none;
 }
 
-.confetti {
+.snowfall {
     display: block;
     z-index: 999;
 }
 
-.confetti-hidden {
+.snowfall-hidden {
     display: none;
 }
 @media screen and (max-width: 300px) {
@@ -157,4 +157,16 @@
   .app {
       font-size: 20px;
   }
+} */
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+.snowfall {
+    display: block;
+    z-index: 999;
+}
+    .snowfall-hidden {
+    display: none;
 }

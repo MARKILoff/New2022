@@ -35,7 +35,7 @@ const NewYear2 = () => {
                     }
                 </div>
                 <br />
-                <div className='col-span-1 text-center'>
+                <div className='col-span-1 text-center'> 
                     <br />
                     {
                         hidden ? (

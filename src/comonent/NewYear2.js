@@ -24,8 +24,8 @@ const NewYear2 = () => {
                         ) : null
                     }
                     {hidden ?
-                        <div className="text-blue-500 text-4xl text-center">
-                            <span className='text-red-500'>{change}</span><br />
+                        <div className="text-blue-500 text-4xl text-center h2">
+                            <span className='text-red-500'>{change + "😍"}</span><br />
                             Yengi 2022 Yiling Muborak !
                         </div> :
                         <div className="text-blue-500 text-5xl h1">
@@ -33,7 +33,6 @@ const NewYear2 = () => {
                         </div>
                     }
                 </div>
-                <br />
                 <div className='col-span-1 text-center'>
                     <br />
                     {
@@ -49,10 +48,10 @@ const NewYear2 = () => {
                     }
                     <br />
                     {hidden ? (
-                        <span className="text-white text-2xl ">
+                        <span className="text-white text-2xl h2 ">
                             Allohim shu kunga yetkazganinga va ko`rsatganinga shukur
                             <br />
-                            <span className='text-green-500'>Bayraming Muborak Megajin 😜😜😜</span>
+                            <span className='text-green-500 h2'>Bayraming Muborak Megajin 😜😜😜</span>
                         </span>
 
                     ) : (
@@ -117,7 +116,6 @@ const NewYear2 = () => {
                             </button>)}
                     </div>
                 </div>
-                <br />
                 <br />
                 <div className='text-red-500 text-center text-lg h2'>99 790 64 22 <br />
                     <span

@@ -159,9 +159,14 @@
   }
 } */
 * {
-    font-family: cursive;
     margin: 0;
     padding: 0;
+}
+.h1 {
+    font-family: cursive;
+}
+.h2 {
+    font-family: monospace;
 }
 .snowfall {
     display: block;

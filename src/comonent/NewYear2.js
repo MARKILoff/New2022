@@ -4,13 +4,14 @@ import music from '../audio/55.mp3'
 import ReactAudioPlayer from 'react-audio-player'
 import Typical from 'react-typical'
 import Snowfall from 'react-snowfall'
+import background from '../images/56.jpg'
 
 const NewYear2 = () => {
     const [hidden, setHidden] = useState(false);
     const [change, setChange] = useState('');
 
     return (
-        <div className=' bg-black h-screen'>
+        <div className='h-screen bg-black'>
             <div className='grid grid-cols-1'>
                 <div className='flex justify-center'>
                     {
@@ -28,7 +29,7 @@ const NewYear2 = () => {
                             <span className='text-red-500 my-10'>{change}</span><br />
                             Yengi 2022 Yiling Muborak !
                         </div> :
-                        <div className="text-blue-500 text-5xl ">
+                        <div className="text-blue-500 text-5xl h1 ">
                             New Year 😁
                         </div>
                     }
@@ -38,24 +39,26 @@ const NewYear2 = () => {
                     <br />
                     {
                         hidden ? (
-                            <div className="text-blue-300 text-5xl">
+                            <div className="text-blue-300 text-5xl h1 ">
                                 <h1>😍2022🥳</h1>
                             </div>
                         ) : (
-                            <div className="text-blue-300 text-5xl">
+                            <div className="text-blue-300 text-5xl h1">
                                 <h1>😍2021🥳</h1>
                             </div>
                         )
                     }
                     <br />
                     {hidden ? (
-                        <span className="text-white text-2xl">
-                            Allohim shu kunga yetkazganinga va ko`rsatganinga shukur o`zimmi baxtimga o`zim sog` boliii !!! 😜😜😜
+                        <span className="text-white text-2xl ">
+                            Allohim shu kunga yetkazganinga va ko`rsatganinga shukur
+                            <br />
+                            <span className='text-green-500'>Bayraming Muborak Megajin  😜😜😜</span>
                         </span>
 
                     ) : (
                         <div>
-                            <span className="text-white text-lg">
+                            <span className="text-white text-lg h2">
                                 Tugmani bosishdan oldin ismingizni kiriting!!!
                             </span>
                             <br />
@@ -75,7 +78,7 @@ const NewYear2 = () => {
                                 {change === "" ? (
                                     <>
                                         <Typical
-                                            className="text-red-500 d-flex text-xl"
+                                            className="text-red-500 d-flex text-xl h2"
                                             loop={Infinity}
                                             wrapper="p"
                                             steps={['To`ldirilishi shart !!!', 2000,
@@ -116,15 +119,16 @@ const NewYear2 = () => {
                             </button>)}
                     </div>
                 </div>
+                <br />
+                <br />
+                <div className='text-red-500 text-center text-lg h2'>99 790 64 22 <br />
+                    <span
+                        className='text-white '>
+                        Ismingizni Shu nomerga yozib yuboring
+                    </span>
+                </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            {hidden ? (
-                <div className='text-red-500'>99 790 64 22<span className='text-white'>Ismingizni Shu nomerga yozib yuboring</span></div>
-            ) : null}
+
         </div>
     )
 }

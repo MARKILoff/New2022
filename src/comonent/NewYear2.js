@@ -29,7 +29,7 @@ const NewYear2 = () => {
                             <span className='text-red-500 my-10'>{change}</span><br />
                             Yengi 2022 Yiling Muborak !
                         </div> :
-                        <div className="text-blue-500 text-5xl h1 ">
+                        <div className="text-blue-500 text-5xl h1">
                             New Year 😁
                         </div>
                     }

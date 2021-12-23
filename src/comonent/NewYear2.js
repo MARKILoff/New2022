@@ -4,7 +4,6 @@ import music from '../audio/55.mp3'
 import ReactAudioPlayer from 'react-audio-player'
 import Typical from 'react-typical'
 import Snowfall from 'react-snowfall'
-import background from '../images/56.jpg'
 
 const NewYear2 = () => {
     const [hidden, setHidden] = useState(false);
@@ -26,7 +25,7 @@ const NewYear2 = () => {
                     }
                     {hidden ?
                         <div className="text-blue-500 text-4xl text-center">
-                            <span className='text-red-500 my-10'>{change}</span><br />
+                            <span className='text-red-500'>{change}</span><br />
                             Yengi 2022 Yiling Muborak !
                         </div> :
                         <div className="text-blue-500 text-5xl h1">
@@ -35,7 +34,7 @@ const NewYear2 = () => {
                     }
                 </div>
                 <br />
-                <div className='col-span-1 text-center'> 
+                <div className='col-span-1 text-center'>
                     <br />
                     {
                         hidden ? (
@@ -53,7 +52,7 @@ const NewYear2 = () => {
                         <span className="text-white text-2xl ">
                             Allohim shu kunga yetkazganinga va ko`rsatganinga shukur
                             <br />
-                            <span className='text-green-500'>Bayraming Muborak Megajin  😜😜😜</span>
+                            <span className='text-green-500'>Bayraming Muborak Megajin 😜😜😜</span>
                         </span>
 
                     ) : (
@@ -85,7 +84,6 @@ const NewYear2 = () => {
                                                 'To`ldirish qiyinmasu 😕😕', 2000,
                                                 'To`ldiree oneniii 😡😡', 3000,
                                             ]}
-                                        //steps={['To`ldirilishi shart !!!', 2000, 'Itaraman bo`masa', 2000, 'Huyyet qimasdan to`ldir ko`t 😡😡😡', 3000,]}
                                         />
                                     </>
                                 ) : (
